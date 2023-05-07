@@ -7,7 +7,6 @@ import matplotlib.pyplot as plt
 
 st.title('Resultado')
 
-@st.cache_data
 def cria_tabela(seq_timestamp, conc_timestamp):
     #Calculo dos tempos para versão sequencial
     seq_media = np.mean(seq_timestamp)
